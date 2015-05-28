@@ -9,7 +9,9 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom">
 
         <TextView
             android:layout_width="wrap_content"
@@ -50,13 +52,35 @@
 
     </LinearLayout>
 
-    <EditText
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:layout_weight="5"
-        android:ems="10"
-        android:id="@+id/editText"
-        android:hint="Respuesta" />
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight="5"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:hint="Respuesta" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siguente"
+            android:id="@+id/btnSig" />
+    </LinearLayout>
 
 </LinearLayout>
