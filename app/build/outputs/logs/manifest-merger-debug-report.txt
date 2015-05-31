@@ -27,7 +27,7 @@ MERGED from com.android.support:support-v4:22.1.1:22:5
 		ADDED from AndroidManifest.xml:9:9
 activity#proyectofinal.game.MainActivity
 ADDED from AndroidManifest.xml:10:9
-	android:label
+	android:screenOrientation
 		ADDED from AndroidManifest.xml:12:13
 	android:name
 		ADDED from AndroidManifest.xml:11:13
@@ -41,6 +41,22 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:16:17
 	android:name
 		ADDED from AndroidManifest.xml:16:27
+activity#proyectofinal.game.Inicio
+ADDED from AndroidManifest.xml:19:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:20:13
+	android:label
+		ADDED from AndroidManifest.xml:19:42
+	android:name
+		ADDED from AndroidManifest.xml:19:19
+activity#proyectofinal.game.Final
+ADDED from AndroidManifest.xml:23:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:24:13
+	android:label
+		ADDED from AndroidManifest.xml:23:41
+	android:name
+		ADDED from AndroidManifest.xml:23:19
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.android.support:appcompat-v7:22.1.1:20:5
