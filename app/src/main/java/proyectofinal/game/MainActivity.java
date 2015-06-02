@@ -14,6 +14,7 @@ import android.content.Intent;
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
     private EditText nombre;
     private String nom="";
+    private Activity act=this;
 
 
     @Override
@@ -47,6 +48,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 WindowsGame.putExtra("Nombre", nom);
 
                 startActivity(WindowsGame);
+                act.finish();
             }
         }
 
