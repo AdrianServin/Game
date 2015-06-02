@@ -88,11 +88,10 @@ public class Inicio extends ActionBarActivity implements View.OnClickListener {
     public void GameOver(){
         vidas--;
         Toast.makeText(getBaseContext(), "Juego Terminado", Toast.LENGTH_SHORT).show();
-        Intent WindowsGame = new Intent(this, Final.class);
-        WindowsGame.putExtra("Nombre", nom);
-        WindowsGame.putExtra("Puntuaje",puntuaje);
-
-        startActivity(WindowsGame);
+        Intent Windows = new Intent(this, Final.class);
+        Windows.putExtra("Nombre", nom);
+        Windows.putExtra("Puntos",""+puntuaje);
+        startActivity(Windows);
         act.finish();
         
     }

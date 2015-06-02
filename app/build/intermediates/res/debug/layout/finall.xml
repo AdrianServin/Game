@@ -8,4 +8,59 @@
     android:orientation="vertical"
     android:background="@drawable/fondo1">
 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Puntuaje"
+        android:id="@+id/lblPuntuaje"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff4a36ff"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/lblName"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:textSize="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="10"
+        android:id="@+id/lblPuntos"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="3"
+        android:textIsSelectable="false"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reiniciar"
+            android:id="@+id/btnReiniciar"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salir"
+            android:id="@+id/btnSalir"
+            android:layout_weight="1" />
+    </LinearLayout>
+
 </LinearLayout><!-- From: file:/home/adrian_servin/AndroidStudioProjects/Game/app/src/main/res/layout/finall.xml -->
